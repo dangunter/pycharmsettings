@@ -3,10 +3,10 @@
     <property name="created">2017-02-06T15:20:26</property>
     <property name="ide">PyCharmCore</property>
     <property name="ideVersion">2016.3.2.0.0</property>
-    <property name="modified">2017-02-08T07:35:48</property>
+    <property name="modified">2017-02-27T05:00:04</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
-  <option name="EDITOR_FONT_SIZE" value="18" />
+  <option name="EDITOR_FONT_SIZE" value="24" />
   <option name="CONSOLE_FONT_NAME" value="Source Code Pro" />
   <option name="CONSOLE_FONT_SIZE" value="21" />
   <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
