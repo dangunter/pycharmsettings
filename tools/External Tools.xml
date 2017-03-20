@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="show path" description="show path" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="echo" />
+      <option name="PARAMETERS" value="$PATH" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="install" description="install to env" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/.conda/envs/idaes/bin/python" />
+      <option name="PARAMETERS" value="setup.py install" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/src/idaes/DMF" />
+    </exec>
+  </tool>
+</toolSet>
