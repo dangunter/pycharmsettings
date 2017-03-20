@@ -1,5 +1,5 @@
 <toolSet name="External Tools">
-  <tool name="show path" description="show path" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="show path" description="show path" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="echo" />
       <option name="PARAMETERS" value="$PATH" />
@@ -8,9 +8,9 @@
   </tool>
   <tool name="install" description="install to env" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="$USER_HOME$/.conda/envs/idaes/bin/python" />
-      <option name="PARAMETERS" value="setup.py install" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/src/idaes/DMF" />
+      <option name="COMMAND" value="$USER_HOME$/.conda/envs/idaes/bin/pip" />
+      <option name="PARAMETERS" value="install -e ." />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/src/idaes/dangunter/DMF" />
     </exec>
   </tool>
 </toolSet>
