@@ -6,7 +6,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt i" />
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
-  <action id="CheckinProject" />
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="alt k" />
+  </action>
   <action id="Diff.SelectedChange" />
   <action id="Editor SelectAll">
     <keyboard-shortcut first-keystroke="alt a" />
