@@ -7,6 +7,7 @@
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
   <action id="CheckinProject" />
+  <action id="Diff.SelectedChange" />
   <action id="Editor SelectAll">
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
@@ -17,5 +18,14 @@
     <keyboard-shortcut first-keystroke="home" />
     <keyboard-shortcut first-keystroke="ctrl a" />
   </action>
+  <action id="FileChooser.NewFolder">
+    <keyboard-shortcut first-keystroke="alt insert" />
+  </action>
+  <action id="GotoChangedFile" />
+  <action id="GotoClass" />
   <action id="ImplementMethods" />
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="alt insert" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
 </keymap>
