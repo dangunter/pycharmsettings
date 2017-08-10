@@ -1,0 +1,8 @@
+<templateSet group="Python">
+  <template name="its.." value="&quot;&quot;&quot;&#10;&#10;&quot;&quot;&quot;&#10;__author__ = '${name} &lt;${email}&gt;'&#10;&#10;# Standard imports&#10;import sys&#10;# Third-party imports&#10;import six&#10;# Local imports&#10;" description="Python module header" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+      <option name="Python_Class" value="false" />
+    </context>
+  </template>
+</templateSet>
