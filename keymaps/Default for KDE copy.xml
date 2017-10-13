@@ -23,6 +23,9 @@
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
   </action>
+  <action id="FillParagraph">
+    <keyboard-shortcut first-keystroke="shift ctrl q" />
+  </action>
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
   <action id="ImplementMethods" />
