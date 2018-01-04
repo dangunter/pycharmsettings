@@ -1,5 +1,8 @@
-<code_scheme name="Default (1)">
+<code_scheme name="Default (1)" version="173">
   <option name="RIGHT_MARGIN" value="80" />
+  <MarkdownNavigatorCodeStyleSettings>
+    <option name="RIGHT_MARGIN" value="72" />
+  </MarkdownNavigatorCodeStyleSettings>
   <codeStyleSettings language="Python">
     <option name="RIGHT_MARGIN" value="80" />
   </codeStyleSettings>
