@@ -3,6 +3,9 @@
   <MarkdownNavigatorCodeStyleSettings>
     <option name="RIGHT_MARGIN" value="72" />
   </MarkdownNavigatorCodeStyleSettings>
+  <Python>
+    <option name="DICT_ALIGNMENT" value="2" />
+  </Python>
   <codeStyleSettings language="Python">
     <option name="RIGHT_MARGIN" value="80" />
   </codeStyleSettings>
